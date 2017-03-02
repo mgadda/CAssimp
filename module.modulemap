@@ -1,5 +1,9 @@
 module CAssimp [system] {
-  header "/usr/local/include/assimp/cimport.h"
+  header "assimp/cimport.h"
+  header "assimp/postprocess.h"
+  header "assimp/config.h"
+  header "assimp/scene.h"
+  header "assimp/vector3.h"
   link "assimp"
   export *
 }
