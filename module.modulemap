@@ -1,9 +1,5 @@
 module CAssimp [system] {
-  header "assimp/cimport.h"
-  header "assimp/postprocess.h"
-  header "assimp/config.h"
-  header "assimp/scene.h"
-  header "assimp/vector3.h"
+  umbrella "assimp"
   link "assimp"
   export *
 }
