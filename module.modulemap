@@ -1,5 +1,5 @@
 module CAssimp [system] {
-  umbrella "assimp"
+  umbrella "/usr/local/include/assimp"
   link "assimp"
   export *
 }
