@@ -1,6 +1,5 @@
 module CAssimp [system] {
-  umbrella "/usr/local/include/assimp"
-  exclude "*.hpp"
+  umbrella header "assimp/cimport.h"
   link "assimp"
   export *
 }
