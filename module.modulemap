@@ -1,5 +1,6 @@
 module CAssimp [system] {
   umbrella header "/usr/local/include/assimp/cimport.h"
+  header "/usr/local/include/assimp/postprocess.h"
   link "assimp"
   export *
 }
